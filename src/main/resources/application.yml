@@ -2,8 +2,7 @@ spring:
   datasource:
 #    url: jdbc:sqlserver://techteamserver.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     url: jdbc:sqlserver://techteamserver.database.windows.net:1433;database=TechTeam-DB;user=techteam;password=P@ssw0rd;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-#    username: techteam
-#    password: P@ssw0rd
+
   jpa:
     show-sql: true
     hibernate:
